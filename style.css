@@ -340,20 +340,31 @@ footer > svg {
   /* ------------- Side Bar------------- */
   #side-bar > ul {
     position: absolute;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: var(--White);
-    width: 100%;
-    right: 0;
-    top: -325px;
+    right: 30px;
+    left: 30px;
+    top: 90px;
     clip-path: polygon(0 0%, 90% 0%, 100% -20, 100% 100%, 0 100%);
-    transition: all 0.6s ease-in-out;
-    border-radius: 5px;
+    transition: all 0.7s ease-in-out;
+    z-index: -2;
+    transform: scale(0);
+  }
+  #side-bar > ul:before {
+    position: absolute;
+    content: "";
+    background: var(--White);
+    height: 30px;
+    width: 30px;
+    top: -30px;
+    right: 0px;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
   }
   #side-bar > ul.active {
-    top: 60px;
+    z-index: 0;
+    transform: scale(1);
   }
   #side-item {
     width: 50%;
