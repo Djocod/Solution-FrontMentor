@@ -20,7 +20,7 @@ stoped.addEventListener("click", () => {
 
 arrow.addEventListener("click", () => {
   window.scroll({
-    top: 800,
+    top: 910,
     behavior: "smooth",
   });
 });
