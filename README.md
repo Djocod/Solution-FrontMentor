@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Djocod](https://github.com/Djocod/Solution-FrontMentor.git)
-- Live Site URL: [Agency Landing Page](https://djocod.github.io/Solution-FrontMentor/)
+- Solution URL: [Djocod](https://github.com/Djocod/Solution-FrontMentor-Agency-Landing-Page.git)
+- Live Site URL: [Agency Landing Page](https://djocod.github.io/Solution-FrontMentor-Agency-Landing-Page/)
 
 ## My process
 
