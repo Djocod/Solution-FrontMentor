@@ -347,7 +347,8 @@ footer > svg {
     right: 30px;
     left: 30px;
     top: 90px;
-    transition: all 0.4s ease-in-out;
+    clip-path: polygon(0 0%, 90% 0%, 100% -20, 100% 100%, 0 100%);
+    transition: all 0.7s ease-in-out;
     z-index: -2;
     transform: scale(0);
   }
